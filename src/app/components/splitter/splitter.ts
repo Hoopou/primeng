@@ -19,7 +19,7 @@ import { PrimeTemplate, SharedModule } from 'primeng/api';
         </div>
     `,
     encapsulation: ViewEncapsulation.None,
-    changeDetection: ChangeDetectionStrategy.OnPush,
+    changeDetection: ChangeDetectionStrategy.Default,
     styleUrls: ['./splitter.css'],
     host: {
         'class': 'p-element',
